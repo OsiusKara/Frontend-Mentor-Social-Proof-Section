@@ -1,0 +1,235 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: boder-box;
+  }
+
+  main {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    font-family: 'Spartan', sans-serif;
+  }
+
+  .card {
+    margin-top: 4em;
+    max-width: 375px;
+    text-align: center;
+    padding: 1.8em;
+    box-sizing: border-box;
+    background: url("./images/bg-pattern-top-desktop.svg")no-repeat, url("./images/bg-pattern-bottom-desktop.svg") no-repeat bottom right;
+  }
+
+  h1 {
+    margin: 1.2em 0 0.6em 0;
+    font-size: 2.3em;
+    color: hsl(300, 43%, 22%);
+    line-height: 1em;
+    font-weight: 700;    
+  }
+
+  .description {
+    color: hsl(303, 10%, 53%);
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.7em;
+    margin-bottom: 2.7em;
+  }
+
+  .star {
+    background-color: hsl(300, 24%, 96%);
+    margin-bottom: 1em;
+    padding: 0.9em;
+    border-radius: 0.8em;
+  }
+
+  .star p {
+    margin-top: 0.7em;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 0.9em;
+  }
+
+  .star img {
+    margin-left: 0.3em;
+  }
+
+  .star-section {
+    margin-bottom: 3.5em;
+  }
+
+  /* --------------BOTTOM PART----------------- */
+
+
+  .name1, .name2, .name3 {
+    display: flex;
+    padding: 0.9em 0;
+  }
+
+  .customer {
+  background-color:hsl(300, 43%, 22%);
+  color:hsl(300, 24%, 96%);
+  margin-bottom: 1.5em;
+  padding: 2em;
+  border-radius: 0.6em;
+  } 
+  
+  .customer img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid hsl(300, 43%, 22%);
+    border-radius: 50%;
+  }
+
+  .customer h2 {
+    font-size: 0.9em;
+    margin-left: 1.7em;
+    margin-top: 0.3em;
+    margin-bottom: 1.3em;
+  }
+
+  .customer span {
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+    line-height: 1.7em;
+  }
+
+  .customer p {
+    font-size: 0.9em;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.7em;
+  }
+
+  .third-box {
+  margin-bottom: 3em;
+  }
+
+
+/* --------------------DESKTOP VERSION-------------------------- */
+
+@media screen and (min-width: 950px){
+
+  main{
+    width: 100vw;
+  }
+
+  .card {
+    min-width: 1200px;
+    height: auto;
+    margin: 50px 0 50px 0 50px;
+    }
+
+  .upper-part {
+    display: flex;  
+  }
+
+    /* HEADER PART */
+
+  header {
+   box-sizing: border-box;
+   flex: 1 0 50%;
+   text-align: left;  
+   padding-left: 2em;
+  }
+
+  header h1 {
+  font-size: 3.5rem;
+  width: 75%;
+  margin: 0.4em 0 0.3em 0;
+  }
+
+  header p {
+  width: 80%;
+  font-weight: 700;
+  }
+
+/* RATING PART */
+
+  .star-section {
+    display: flex;
+    flex: 0 1 50%;
+    margin-bottom: 0;
+  }
+
+  .star{
+    display: flex;
+    padding: 1.4em 3.8em 1.4em 1.4em;
+   }
+
+  .star img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .star p {
+    margin: 0 0 0 2em;
+  }
+
+  
+  .star-section-top {
+    transform: translate(40px, 30px); 
+  }
+
+  .star-section-middle {
+    transform: translate(100px, 40px); 
+  }
+
+  .star-section-bottom {
+  transform: translate(155px, 50px); 
+  }
+
+/* BOTTOM PART */
+
+.bottom-part {
+  margin: 2em auto 3em auto;
+  padding-left: 1.5em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.customer {
+  width: 75%;
+  padding: 2em;
+  padding: 1.4em 2.5em 2.5em 2.5em;
+  margin-bottom: 0;
+}
+
+ .second-box {
+   transform: translateY(1.5em);
+  }
+
+ .third-box{
+  margin-bottom: 0;
+  transform: translateY(3em);
+}
+
+/* ---Footer--- */
+
+.attribution {
+  text-align: center;
+  font-size: 0.7em;  
+  font-family: 'Spartan', sans-serif;
+}
+
+.attribution a {
+  text-decoration: none;  
+  color: hsl(228, 45%, 44%);
+}
+
+}
+
+
+
+
+
+
+
+
+ 
+
+  
+
+  
+  
